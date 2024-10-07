@@ -22,12 +22,12 @@ export function getPowerups() {
     },
     "powerup5": {
       id: "powerup5",
-      cost: 10000,
-      val: 1000,
+      cost: 100000,
+      val: 10000,
     },
     "powerup6": {
       id: "powerup6",
-      cost: 100000,
+      cost: 1000000,
       val: 100000,
     },
   };
