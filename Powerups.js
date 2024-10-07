@@ -12,18 +12,18 @@ export function getPowerups() {
     },
     "powerup3": {
       id: "powerup3",
-      cost: 5000,
-      val: 200,
+      cost: 1000,
+      val: 50,
     },
     "powerup4": {
       id: "powerup4",
-      cost: 10000,
+      cost: 5000,
       val: 500,
     },
     "powerup5": {
       id: "powerup5",
-      cost: 50000,
-      val: 10000,
+      cost: 10000,
+      val: 1000,
     },
     "powerup6": {
       id: "powerup6",

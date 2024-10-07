@@ -19,6 +19,8 @@ function init(){
     else 
         valScore = 0;
     
+    document.querySelector(".btn-end").addEventListener("click", endGame);
+    
     addPowerups();
     updateScore();
     saveScore();
@@ -74,6 +76,7 @@ function clickOnIcon (e) {
 
 function endGame(){
     localStorage.removeItem("score");
+    window.location.reload();
 }
 
 init();
