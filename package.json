@@ -1,0 +1,19 @@
+{
+  "name": "clicker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "sass:watch": "sass --watch styles/index.scss styles.css",
+    "dev": "npm-run-all --partial start sass:watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.79.4"
+  }
+}
