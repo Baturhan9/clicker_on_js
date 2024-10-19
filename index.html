@@ -2,11 +2,29 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.sass">
+    <link rel="stylesheet" href="./styles.css">
     <title>Clicker</title>
 </head>
 <body>
-    
+    <div id="container">
+        <div class="playarea">
+          <div class="counter">
+            <h1 class="counter__current">0</h1>
+            <h4 class="counter__persec">0/сек</h4>
+          </div>
+          <img
+            src="./assets/money.png"
+            alt="click me"
+            class="playarea__clicker"
+          />
+          <div class="powerups">
+            
+          </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>

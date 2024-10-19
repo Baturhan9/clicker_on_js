@@ -1,0 +1,94 @@
+:root {
+  --variable: value;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.6;
+  background-color: rgb(30, 30, 30);
+  color: azure;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.playarea {
+  text-align: center;
+}
+.playarea__clicker {
+  width: 60%;
+  height: 60%;
+  transition: all 0.1s;
+}
+.playarea__clicker:active {
+  transform: scale(0.95);
+}
+
+.powerups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+  gap: 1rem;
+  grid-auto-rows: 1fr;
+}
+
+.powerup {
+  background-color: #dee64e;
+  font-size: 1.5rem;
+  border-radius: 2.5rem;
+  padding: 1rem 1.5rem;
+  color: rgb(10, 10, 10);
+  transition: all 0.1s;
+  text-align: start;
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: repeat(3, auto);
+}
+.powerup:active {
+  transform: scale(0.95);
+  background-color: #a5ad29;
+}
+.powerup__title {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.powerup__price {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-self: end;
+}
+.powerup__amount {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  font-size: 5rem;
+  justify-self: end;
+  align-self: center;
+}
+.powerup .profit {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: end;
+}
+
+.counter__current {
+  font-size: 5rem;
+}
+.counter__persec {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
