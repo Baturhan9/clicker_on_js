@@ -24,11 +24,11 @@ const perClick = "click"
 const powerups = 
 [
     {
-        title: "Жмай 1",
+        title: "Скачать мем",
         price: function() {
             return calcPrice.call(this)
         },
-        initialPrice : 10,
+        initialPrice : 100,
         amount: 0,
         profit: 0,
         value: 1,
@@ -36,11 +36,11 @@ const powerups =
         profitType: perClick
     },
     {
-        title: "Жмай 2",
+        title: "Нанять мемодела",
         price: function() {
             return calcPrice.call(this)
         },
-        initialPrice : 20,
+        initialPrice : 200,
         amount: 0,
         profit: 0,
         value: 2,
@@ -48,11 +48,11 @@ const powerups =
         profitType: perSec
     },
     {
-        title: "Жмай 3",
+        title: "Создать паблик в соц. сети",
         price: function() {
             return calcPrice.call(this)
         },
-        initialPrice : 30,
+        initialPrice : 300,
         amount: 0,
         profit: 0,
         value: 3,
@@ -60,11 +60,11 @@ const powerups =
         profitType: perSec
     },
     {
-        title: "Жмай 4",
+        title: "Придумать свой мем",
         price: function() {
             return calcPrice.call(this)
         },
-        initialPrice : 40,
+        initialPrice : 400,
         amount: 0,
         profit: 0,
         value: 4,
@@ -72,11 +72,11 @@ const powerups =
         profitType: perClick
     },
     {
-        title: "Жмай 5",
+        title: "Запостить мем в reddit",
         price: function() {
             return calcPrice.call(this)
         },
-        initialPrice : 50,
+        initialPrice : 500,
         amount: 0,
         profit: 0,
         value: 5,
@@ -84,11 +84,11 @@ const powerups =
         profitType: perSec
     },
     {
-        title: "Жмай 6",
+        title: "Скачать интернет",
         price: function() {
             return calcPrice.call(this)
         },
-        initialPrice : 60,
+        initialPrice : 600,
         amount: 0,
         profit: 0,
         value: 6,

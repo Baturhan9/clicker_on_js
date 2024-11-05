@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "live-server",
+    "start": "live-server --port=8090",
     "sass:watch": "sass --watch styles/index.scss styles.css",
     "dev": "npm-run-all --parallel start sass:watch"
   },

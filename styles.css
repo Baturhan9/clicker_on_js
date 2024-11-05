@@ -17,7 +17,7 @@ html {
 
 body {
   line-height: 1.6;
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(93, 202, 119);
   color: azure;
 }
 
@@ -30,11 +30,15 @@ body {
   text-align: center;
 }
 .playarea__clicker {
-  width: 60%;
-  height: 60%;
+  background-image: url(/assets/sad.png);
+  width: 30vw;
+  height: 30vw;
+  background-size: cover;
   transition: all 0.1s;
+  margin-inline: auto;
 }
 .playarea__clicker:active {
+  background-image: url(/assets/happy.png);
   transform: scale(0.95);
 }
 
@@ -47,11 +51,11 @@ body {
 }
 
 .powerup {
-  background-color: #dee64e;
+  background-color: #2f9c37;
   font-size: 1.5rem;
   border-radius: 2.5rem;
-  padding: 1rem 1.5rem;
-  color: rgb(10, 10, 10);
+  padding: 0rem 1.5rem;
+  color: rgb(236, 236, 236);
   transition: all 0.1s;
   text-align: start;
   display: grid;
@@ -60,7 +64,7 @@ body {
 }
 .powerup:active {
   transform: scale(0.95);
-  background-color: #a5ad29;
+  background-color: #1e8748;
 }
 .powerup__title {
   grid-column: 1/3;

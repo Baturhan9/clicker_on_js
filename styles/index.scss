@@ -17,7 +17,7 @@ html {
  
 body {
     line-height: 1.6;
-    background-color: rgba(30, 30, 30);
+    background-color: rgb(93, 202, 119);
     color: azure;
 }
 
@@ -29,10 +29,14 @@ body {
 .playarea {
     text-align: center;
     &__clicker {
-        width: 60%;
-        height: 60%;
+        background-image: url(/assets/sad.png);
+        width: 30vw;
+        height: 30vw;
+        background-size:cover;
         transition: all 0.1s;
+        margin-inline: auto;
         &:active{
+            background-image: url(/assets/happy.png);
             transform: scale(0.95);
         }
     }
@@ -47,16 +51,16 @@ body {
 }
 
 .powerup {
-    background-color: #dee64e;
-    font-size: 1.5rem;
+    background-color: #2f9c37;
+    font-size: 1.5rem;  
     border-radius: 2.5rem;
-    padding: 1rem 1.5rem;
-    color: rgba(10, 10, 10);  
+    padding: 0rem 1.5rem;
+    color: rgb(236, 236, 236);  
     transition: all 0.1s;
     text-align: start;
     &:active{
         transform: scale(0.95);
-        background-color: #a5ad29;
+        background-color: #1e8748;
     }
 
     display: grid;
